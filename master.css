@@ -1,8 +1,4 @@
-[class*='col-']{
-  float: left;
-
-
-}
+/*setting section 1*/
 .sfondo{
   background-image:url("img/sfondosection1.jpg");
   background-size:cover;
@@ -15,24 +11,24 @@
   text-align:left;
 }
 .title h2{
-  margin:70px 25px 25px 25px;
+  margin:70px 0 25px 0;
   font-size:40px;
   font-weight:700;
 }
 .title p{
-  margin:0 25px 30px 25px;
+  margin:0 0 30px 0;
   font-size:25px;
 }
 
 .form-group{
   background-color:white;
-  border-radius:15px;
+  border-radius:5px;
   padding:50px 0 ;
 }
 .form-group section{
-margin-top:30px;
-line-height:30px;
-font-size:20px;
+  margin-top:30px;
+  line-height:30px;
+  font-size:20px;
 }
 .form-group h2{
   font-size:40px;
@@ -41,12 +37,11 @@ font-size:20px;
 .form-group section button{
   border-radius:5px;
   border-color:white;
-  padding:5px 25px;
+  padding:5px;
   color:black;
   line-height:40px;
   background-color:white;
   font-size:20px;
-
 }
 .form-group .Account{
   margin:20px 0;
@@ -61,4 +56,24 @@ font-size:20px;
 }
 .terms a{
   color:blue;
+}
+
+/*setting section 2*/
+.container.icon{
+  padding:60px 0;
+}
+.icon .col-lg-12 a{
+  text-decoration:none;
+  color:blue;
+  font-size:20px;
+}
+.icon .col-lg-12.link{
+  padding:30px 0;
+}
+.icon img{
+  background-size:cover;
+  width: 100%;
+  padding-left:15%;
+  margin-bottom:20px;
+  margin-top:20px;
 }
