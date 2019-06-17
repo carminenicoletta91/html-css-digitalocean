@@ -1,3 +1,9 @@
+li{
+  list-style: none;
+  line-height:40px;
+}
+
+
 /*setting section 1*/
 .sfondo{
   background-image:url("img/sfondosection1.jpg");
@@ -74,6 +80,38 @@
   background-size:cover;
   width: 100%;
   padding-left:15%;
-  margin-bottom:20px;
+  margin-bottom:40px;
   margin-top:20px;
+}
+/*setting section3*/
+.container.deploy{
+  padding-bottom:50px;
+}
+.container.deploy h2{
+  color:#031b4e;
+  font-size:40px;
+  font-weight:700;
+  padding:50px 0 25px 0;
+}
+
+.container.deploy ul{
+padding:50px;
+font-size:20px;
+}
+.container.deploy ul li a{
+text-decoration: none;
+color:black;
+opacity:0.5;
+}
+.container.deploy ul li a.change-color{
+  opacity:1;
+}
+
+.container.deploy p{
+  color:black;
+  opacity:0.7;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:30px;
+
 }
