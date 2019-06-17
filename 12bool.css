@@ -9,13 +9,17 @@
 .container{
   margin:0 auto;
 }
+.centrone{
+  width:85%;
+  margin:0 auto;
+}
 /*testo in maiuscolo*/
 .text-upper-case{
   text-transform:uppercase;
 }
 /*testo accentrto*/
 .text-at-center{
-  text-align:center; 
+  text-align:center;
 }
 /*CLEAR*/
 
