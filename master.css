@@ -139,6 +139,9 @@ li{
 }
 
 /*section 5 business*/
+.container.business{
+  padding-bottom:100px; 
+}
 .container.business h2{
   color:#031b4e;
   font-size:40px;
@@ -170,13 +173,14 @@ li{
 /*section 7*/
 .container.development-teams {
 background-color:#f3f5f9;
-padding:150px 0;
+padding-bottom:150px;
 }
 .slide{
 background-color:white;
 padding-bottom:100px;
 }
 .container.development-teams h2{
+padding-top:80px;
 padding-bottom:20px;
 font-size:40px;
 color:#031b4e;
