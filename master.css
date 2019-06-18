@@ -140,7 +140,7 @@ li{
 
 /*section 5 business*/
 .container.business{
-  padding-bottom:100px; 
+  padding-bottom:100px;
 }
 .container.business h2{
   color:#031b4e;
@@ -170,6 +170,45 @@ li{
     padding-right:0;
   }
 }
+/*section6*/
+.container.regions{
+  padding:150px 0;
+  background-image: url("img/sfondosection6.jpg");
+  background-size: cover;
+  width:100%;
+}
+.container.regions h2{
+  color:white;
+  font-size:40px;
+  font-weight:700;
+  padding-bottom:80px;
+}
+
+.container.regions .abbrev{
+  color:white;
+  text-transform:uppercase;
+}
+.container.regions .city{
+  color:black;
+  color:gray;
+}
+.container.regions .speed a{
+  text-decoration:none;
+  color:#00d7d2;
+}
+.space{
+  padding-right:30px;
+  line-height:40px;
+}
+.nospace{
+  line-height:40px;
+}
+@media all and  (max-width: 768px) {
+  .space{
+    padding-right:0;
+  }
+}
+
 /*section 7*/
 .container.development-teams {
 background-color:#f3f5f9;
