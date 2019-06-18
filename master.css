@@ -137,8 +137,8 @@ li{
   width:100%;
   padding-bottom:30px;
 }
-/*section 5 business*/
 
+/*section 5 business*/
 .container.business h2{
   color:#031b4e;
   font-size:40px;
@@ -166,4 +166,30 @@ li{
   .container.business p{
     padding-right:0;
   }
+}
+/*section8*/
+.create-account{
+  padding:70px 0;
+  background-image:url("img/sfondosection1.jpg");
+  background-size:cover;
+  width:100%;
+}
+.create-account h2{
+  color:white;
+  font-size:40px;
+  font-weight:700;
+  margin-bottom:40px;
+}
+.create-account a{
+  text-decoration:none;
+  color:#0069ff;
+  border-radius: 5px;
+  border-color:white;
+  font-size:18px;
+  font-weight:200;
+  background-color:white;
+  padding:15px;
+}
+.create-account a:hover{
+  opacity:0.7;
 }
