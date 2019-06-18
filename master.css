@@ -137,3 +137,33 @@ li{
   width:100%;
   padding-bottom:30px;
 }
+/*section 5 business*/
+
+.container.business h2{
+  color:#031b4e;
+  font-size:40px;
+  font-weight:700;
+  padding:100px 0 50px 0;
+}
+.container.business h3{
+  color:#031b4e;
+  font-size:20px;
+  padding-bottom:20px;
+}
+.container.business p{
+  opacity:0.7;
+  font-size:18px;
+  padding-bottom:20px;
+  padding-right:50px;
+}
+.container.business a{
+  padding-bottom:80px;
+  text-decoration: none;
+  color:#0069ff;
+  font-size:20px;
+}
+@media all and (max-width:768px){
+  .container.business p{
+    padding-right:0;
+  }
+}
