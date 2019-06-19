@@ -172,40 +172,44 @@ li{
 }
 /*section6*/
 .container.regions{
-  padding:150px 0;
   background-image: url("img/sfondosection6.jpg");
-  background-size: cover;
-  width:100%;
+  background-size:cover;
 }
 .container.regions h2{
   color:white;
   font-size:40px;
   font-weight:700;
-  padding-bottom:80px;
+  padding:100px 0 80px 0;
 }
-
-.container.regions .abbrev{
+.container.regions h4{
   color:white;
-  text-transform:uppercase;
 }
-.container.regions .city{
-  color:black;
+.container.regions p{
   color:gray;
 }
-.container.regions .speed a{
-  text-decoration:none;
+.container.regions a{
+  text-decoration: none;
   color:#00d7d2;
 }
-.space{
-  padding-right:30px;
-  line-height:40px;
+.container.regions .left{
+  line-height:50px;
+  padding-bottom:150px;
 }
-.nospace{
-  line-height:40px;
+.container.regions .left.right{
+  padding-left:20px;
 }
-@media all and  (max-width: 768px) {
-  .space{
-    padding-right:0;
+@media all and (max-width: 768px){
+  .container.regions .left{
+    padding-bottom:20px;
+  }
+  .container.regions h2{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+    padding:70px;
+  }
+  .container.regions .left.right{
+    padding-left:0;
   }
 }
 
