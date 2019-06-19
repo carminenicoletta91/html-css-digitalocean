@@ -277,15 +277,28 @@ font-size:25px;
 /*footer*/
 .container.footer{
   padding:100px 0;
-  background-color:rgb(1, 14, 40); 
+  background-color:rgb(1, 14, 40);
 }
-.container.footer [class*='col-']{
-  height: 500px;
-  background-color:red;
-  border:1px solid black;
+.copyright{
+  line-height:50px;
 }
-.container.footer .col-lg-8.col-lg-offset-1 [class*='col-']{
-
-  background-color:gray;
-  border:1px solid green;
+.copyright p{
+  color:white;
+  opacity:0.5;
+}
+.container.footer .link{
+  line-height:30px;
+}
+.container.footer .link h4{
+  color:white;
+  padding-right:20px;
+}
+.container.footer .link p a{
+  text-decoration: none;
+  color:white;
+  opacity:0.5;
+  padding-right:20px;
+}
+.container.footer .link p a:hover{
+  opacity:1;
 }
