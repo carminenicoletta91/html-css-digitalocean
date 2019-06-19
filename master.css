@@ -29,7 +29,7 @@ a{
   border-radius:5px;
   padding:50px 0 ;
 }
-.form-group section{
+.form-group form{
   margin-top:30px;
   line-height:30px;
   font-size:20px;
@@ -38,7 +38,7 @@ a{
   font-size:40px;
   font-weight:700;
 }
-.form-group section button{
+.form-group form button{
   border-radius:5px;
   border-color:white;
   padding:5px;
@@ -47,13 +47,23 @@ a{
   background-color:white;
   font-size:20px;
 }
+
+.Sign-in a{
+  text-decoration: none;
+  color:black;
+}
+.form-group input{
+  width:100%;
+  line-height:40px;
+  margin-bottom:30px;
+}
 .form-group .Account{
   margin:20px 0;
 }
 .form-group .terms{
   margin-top:40px;
 }
-.form-group section button.Account{
+.form-group form button.Account{
   background-color:#15cd72;
   border-color:#15cd72;
   color:white;
@@ -262,7 +272,7 @@ font-size:25px;
   font-weight:700;
   margin-bottom:40px;
 }
-.create-account a{
+.registrazione{
   text-decoration:none;
   border-radius: 5px;
   border-color:white;
@@ -271,7 +281,7 @@ font-size:25px;
   background-color:white;
   padding:15px;
 }
-.create-account a:hover{
+.create-account .registrazione:hover{
   opacity:0.7;
 }
 /*footer*/
