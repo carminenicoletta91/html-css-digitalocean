@@ -274,3 +274,18 @@ font-size:25px;
 .create-account a:hover{
   opacity:0.7;
 }
+/*footer*/
+.container.footer{
+  padding:100px 0;
+  background-color:rgb(1, 14, 40); 
+}
+.container.footer [class*='col-']{
+  height: 500px;
+  background-color:red;
+  border:1px solid black;
+}
+.container.footer .col-lg-8.col-lg-offset-1 [class*='col-']{
+
+  background-color:gray;
+  border:1px solid green;
+}
