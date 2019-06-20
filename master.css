@@ -2,6 +2,20 @@
 a{
   color:#0069ff;
 }
+/*setting header*/
+
+.header-top{
+  line-height:40px;
+
+}
+.header-top p a{
+  text-decoration:none;
+  color:black;
+  opacity:0.7;
+}
+.header-top .menu-sx p a:first-child:hover{
+  color:blue;
+}
 /*setting section 1*/
 .sfondo{
   background-image:url("img/sfondosection1.jpg");
