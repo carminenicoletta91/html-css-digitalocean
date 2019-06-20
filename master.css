@@ -3,7 +3,13 @@ a{
   color:#0069ff;
 }
 /*setting header*/
-
+header{
+  width:100%;
+  position: fixed;
+  top:0;
+  background-color:white;
+  z-index:1;
+}
 .header-top{
   line-height:40px;
 
